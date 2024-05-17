@@ -12,6 +12,10 @@
         android:layout_height="wrap_content"
         app:menu="@menu/menu_bottombar"
         android:layout_gravity="bottom"
+        style="@style/Widget.Material3.BottomNavigationView"
+        android:layerType="none"
+        app:labelVisibilityMode="labeled"
+        android:contextClickable="true"
         />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
